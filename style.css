@@ -12,7 +12,82 @@ body{
     border: 1px solid black;
     margin: 0 auto;
 }
+/***********disk***************/
+.disk{
+    margin-top: 4.35vh;
+    display: flex;
+    justify-content: space-between;
 
+}
+.disk-l{
+    padding-top: 4.25vw;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.diskt{
+    font-size: 5.55vh;
+    line-height: 5.93vh;
+    color: white;
+    font-family: 'Gilroy';
+}
+.diskmc > span{
+    font-size: 1.85vh;
+    line-height: 1.85vh;
+    margin-left: 0.78vw;
+    font-family: 'PT Sans';
+}
+.diskmc > img{
+    height: 1.4vh;
+    width: 0.7vw;
+}
+.disk-r{
+    position: relative;
+}
+.disk-r > img{
+    display: block;
+    max-height: 51vh;
+    width: 25vw;
+}
+.diskmi{
+    margin-left: 0.78vw;
+}
+.diskc, .diskp{
+    margin-bottom: 2.22vh;
+}
+.diskp, .diskg{
+    margin-top: 2.22vh;
+}
+.diskml{
+    height: 1px;
+    background: linear-gradient(to right, #4b4b4b, #26262500);
+}
+.diskm{
+    max-width: 19.53vw;
+    margin-top: 5.37vh;
+}
+.diskmf{
+    display: flex;
+    margin-bottom: 2.96vh;
+}
+.diskmfi{
+    width: 31px;
+    height: 2px;
+}
+.diskmfi:not(:first-child){
+    margin-left: 0.93vw;
+}
+.diskpr{
+    font-family: 'PT Sans';
+    font-size: 2.22vh;
+    line-height: 2.22vh;
+    padding: 1.38vh;
+    background-color: #FF7028;
+    color: white;
+    position: absolute;
+    top: 28.43vh;
+    left: 6.3vw;
+}
 /***************header*************/
 .norm1-r, .norm1-l{
     display: flex;
@@ -41,6 +116,16 @@ header{
     margin-left: 1.7vw;
     padding: 0.5vw;
 }
+/****************************************/
+@font-face {
+	font-family: 'Gilroy-Regular';
+	src: url('../fonts/gilroy-regular.eot'); 
+	src: url('../fonts/gilroy-regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/gilroy-regular.woff2') format('woff2'), 
+		url('../fonts/gilroy-regular.woff') format('woff'), 
+		url('../fonts/gilroy-regular.ttf') format('truetype'), 
+		url('../fonts/gilroy-regular.svg#gilroy-regular') format('svg'); 
+}
 
 /*******************color*****************/
 
@@ -60,7 +145,7 @@ header{
     background-color: #f6f6f6;
 }
 .gr{
-    color: #575757;
+    background-color: #575757;
 }
 .grb{
     border: 1px solid #494949;
