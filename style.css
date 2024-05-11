@@ -12,6 +12,58 @@ body{
     border: 1px solid black;
     margin: 0 auto;
 }
+/***********diskint***********/
+.intr{
+    max-width: 20.5vw;
+}
+.intr1, .intr2{
+    display: flex;
+    align-items: start;
+}
+.intr1 > img{
+    max-width: 5vw;
+}
+.intr2 > img{
+    max-width: 5vw;
+}
+.intr12{
+    font-family: 'PT Sans';
+    font-size: 1.38vh;
+    line-height: 1.85vh;
+    color: #7b7b7b;
+    margin-left: 1.48vw;
+    max-width: 13.07vw;
+}
+.intr121{
+    font-weight: bold;
+    color: black!important;
+    font-size: 1.48vh;
+}
+.intl{
+    font-family: 'PT Sans';
+    font-size: 1.67vh;
+    line-height: 2.5vh;
+    max-width: 25vw;
+}
+.intl1{
+    display: flex;
+    align-items: start;
+}
+.intlo{
+    padding-top: 1vh;
+    line-height: 3.98vh;
+    font-size: 6vh;
+}
+.diskint{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.diskint > div{
+    margin-top: 7.59vh;
+    margin-bottom: 7.59vh;
+}
+
 /***********disk***************/
 .disk{
     margin-top: 4.35vh;
