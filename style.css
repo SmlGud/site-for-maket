@@ -63,7 +63,49 @@ body{
     margin-top: 7.59vh;
     margin-bottom: 7.59vh;
 }
-
+/************tromb**********/
+.tromb0{
+    margin-top: 7.4vh;
+    display: flex;
+    flex-direction: column;
+}
+.tromb{
+    font-family: "Gilroy";
+    font-size: 2.96vh;
+    line-height: 3.33vh;
+    color: #151716;
+}
+.tromb1{
+    display: flex;
+    margin-top: 2.59vh;
+    justify-content: space-between;
+}
+.tromb2{
+    position: relative;
+}
+.tromb22{
+    max-height: 32.4vh;
+    max-width: 14.9vw;
+}
+.tromb21{
+    position: absolute;
+    bottom: 2vh;
+    left: 1.25vw;
+}
+.tromb212{
+    opacity: 0.2;
+    width: 12.4vw;
+    height: 1px;
+    background: #ffffff;
+    margin-bottom: 1.85vh;
+}
+.tromb213{
+    color: white;
+    font-weight: 700;
+    font-family: 'Gilroy';
+    font-size: 1.85vh;
+    line-height: 2.3vh;
+}
 /***********disk***************/
 .disk{
     margin-top: 4.35vh;
