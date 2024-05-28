@@ -63,27 +63,112 @@ body{
     margin-top: 7.59vh;
     margin-bottom: 7.59vh;
 }
+/*************mera*************/
+.mera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mera-l{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mera > *{
+    width: 50vw;
+}
+.mera-rf>img{
+    width: 50vw;
+    max-height: 62.5vh;
+    display: block;
+}
+.mera-rf{
+    position: relative;
+}
+.mera-lt, .mera-lb{
+    margin-left: 18.75vw; 
+    margin-right: 3.65vw;
+}
+.mera-lt>p{
+    color: #BEBEBE;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 1.7vh;
+    line-height: 2.75vh;
+    max-width: 24vw;
+}
+.mera-lb>img{
+    height: 1.4vh;
+    width: 0.7vw;
+}
+.mera-lb{
+    margin-top: 2.4vh;
+    margin-bottom: 3.52vh;
+}
+.merat{
+    margin-top: 6.2vh;
+    font-family: "Gilroy"!important;
+    font-weight: 400 !important;
+    font-size: 2.96vh !important;
+    line-height: 3.33vh !important;
+    color: white !important;
+}
+.mera-lb >span{
+    font-family: 'PT Sans';
+    font-size: 1.48vh;
+    line-height: 2.22vh;
+    color: #BEBEBE;
+    margin-left: 0.78vw;
+    
+}
+.mera-rf1{
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 1.7vh;
+    line-height: 3.2vh;
+    color:white;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 7vh;
+    left: 4.1vw;
+}
+.mera-rs{
+    font-family: 'PT Sans';
+    font-size: 2.22vh;
+    line-height: 2.22vh;
+    padding: 1.38vh;
+    background-color: #FF7028;
+    color: white;
+    position: absolute;
+    top: 10.55vh;
+    left: 4.1vw;
+
+}
 /************tromb**********/
 .tromb0{
     margin-top: 7.4vh;
+    margin-bottom: 9.26vh;
     display: flex;
     flex-direction: column;
 }
 .tromb{
     font-family: "Gilroy";
     font-size: 2.96vh;
+    font-weight: 400;
     line-height: 3.33vh;
     color: #151716;
 }
 .tromb1{
     display: flex;
     margin-top: 2.59vh;
+    align-items: end;
     justify-content: space-between;
 }
 .tromb2{
     position: relative;
 }
 .tromb22{
+    display: block;
     max-height: 32.4vh;
     max-width: 14.9vw;
 }
