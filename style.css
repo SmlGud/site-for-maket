@@ -9,7 +9,6 @@ body{
 }
 .norm1{
     width: 62.5vw;
-    border: 1px solid black;
     margin: 0 auto;
 }
 /***********diskint***********/
@@ -157,6 +156,7 @@ body{
     font-weight: 400;
     line-height: 3.33vh;
     color: #151716;
+    letter-spacing: -0.5px;
 }
 .tromb1{
     display: flex;
@@ -190,6 +190,89 @@ body{
     font-family: 'Gilroy';
     font-size: 1.85vh;
     line-height: 2.3vh;
+}
+/**********actions***********/
+.actions220{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.125vw;
+    height: 3.33vh;
+    font-family: 'PT Sans';
+    font-size: 2.22vh;
+    line-height: 2.22vh;
+    background-color: #FF7028;
+    color: white;
+    position: absolute;
+    top: 1.11vh;
+    right: 0.62vw;
+}
+.actions222{
+    position: absolute;
+    left: 0.9vw;
+    bottom: 0.9vh;
+    font-family: 'PT Sans';
+    font-size: 1.85vh;
+    font-weight: 700;
+    line-height: 1.85vh;
+    color: #151716;
+}
+.actions223{
+    position: absolute;
+    left: 5vw;
+    bottom: 1.2vh;
+    font-family: 'PT Sans';
+    font-size: 1.48vh; 
+    font-weight: 400;
+    line-height: 1.48vh;
+    color: #A5A5A5;
+}
+.actions2202{
+    display: flex;
+    padding: 0.74vh 0.57vw;
+    align-items: center;
+    justify-content: center;
+    font-family: 'PT Sans';
+    font-size: 1.48vh;
+    font-weight: 700;
+    line-height: 1.85vh;
+}
+.actions0{
+    margin-bottom: 1.85vh;
+}
+.actions{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7.4vh;
+    margin-bottom: 7.4vh ;
+}
+.actions1{
+    display: flex;
+    justify-content: center;
+}
+.actions2{
+    position: relative;
+    padding: 2.22vh 1.04vw;
+    padding-bottom: 4vh;
+    border: 1px solid #ECECEC;
+}
+.actions2:not(:first-child){
+    border-left: none;
+}
+.actions22{
+    display: block;
+    height: 17.4vh;
+    width: 9.38vw;
+    margin-bottom: 1.85vh;
+    margin-right: 5.2vw;
+}
+.actions213{
+    width: 13.54vw;
+    font-family: 'PT Sans';
+    font-size: 1.48vh;
+    font-weight: 400;
+    line-height: 2vh;
+
 }
 /***********disk***************/
 .disk{
