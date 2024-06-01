@@ -220,7 +220,7 @@ body{
 .actions223{
     position: absolute;
     left: 5vw;
-    bottom: 1.2vh;
+    bottom: 0.8vh;
     font-family: 'PT Sans';
     font-size: 1.48vh; 
     font-weight: 400;
@@ -272,6 +272,59 @@ body{
     font-size: 1.48vh;
     font-weight: 400;
     line-height: 2vh;
+
+}
+/*************parol**********/
+.parol{
+    display: flex;
+    flex-direction: column;
+
+}
+.parol0{
+    margin: 0 auto;
+    margin-top: 6.48vh;
+}
+.parol1{
+    margin-left: 6.25vw;
+    margin-top: 5vh;
+    margin-bottom: 7.4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 49.94vw;
+}
+.parol11{
+    display: flex;
+    justify-content: center;
+}
+.parol12{
+    width: 10.4vw;
+}
+.parol120{
+    width: 14.7vw;
+}
+.parol121{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.parol122{
+    display: flex;
+    font-family: 'Gilroy';
+    font-size: 1.85vh;
+    font-weight: 400;
+    line-height: 2.15vh;
+    justify-content: center;
+    color: #151716;
+    margin-top: 2.22vh;
+}
+.parol1220{
+    margin-top: 1vh;
+    text-align: center;
+    font-family: 'PT Sans';
+    font-size: 1.38vh;
+    line-height: 1.85vh;
+    color: #7b7b7b;
 
 }
 /***********disk***************/
