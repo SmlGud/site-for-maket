@@ -1,99 +1,113 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.norm{
+
+.norm {
     width: 100vw;
- 
-   
+
+
 }
-.norm1{
+
+.norm1 {
     width: 62.5vw;
     margin: 0 auto;
 }
-.norm-1rl{
+
+.norm-1rl {
     margin-left: 1.35vw;
 }
+
 /***********diskint***********/
-.intr{
-    max-width: 20.5vw;
-}
-.intr1, .intr2{
+
+.intr1,
+.intr2 {
     display: flex;
     align-items: start;
 }
-.intr1 > img{
+
+.intr1>img {
     padding-top: 1.4vh;
     max-width: 5vw;
 }
-.intr2 > img{
+
+.intr2>img {
     padding-top: 1.4vh;
     max-width: 5vw;
 }
-.intr12{
+
+.intr12 {
     font-family: 'PT Sans';
     font-size: 1.38vh;
     line-height: 1.85vh;
     color: #7b7b7b;
     margin-left: 1.48vw;
-    max-width: 13.07vw;
 }
-.intr121{
+
+.intr121 {
     font-weight: bold;
-    color: black!important;
+    color: black !important;
     font-size: 1.48vh;
 }
-.intl{
+
+.intl {
     font-family: 'PT Sans';
     font-size: 1.67vh;
     line-height: 2.5vh;
-    max-width: 25vw;
 }
-.intl1{
+
+.intl1 {
     display: flex;
     align-items: start;
 }
-.intlo{
+
+.intlo {
     padding-top: 1vh;
     line-height: 3.98vh;
     font-size: 6vh;
 }
-.diskint{
+
+.diskint {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
 }
-.diskint > div{
-    margin-top: 7.59vh;
-    margin-bottom: 7.59vh;
-}
+
+
+
 /*************mera*************/
-.mera{
+.mera {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.mera-l{
+
+.mera-l {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.mera > *{
+
+.mera>* {
     width: 50vw;
 }
-.mera-rf>img{
+
+.mera-rf>img {
     width: 50vw;
     max-height: 62.5vh;
     display: block;
 }
-.mera-rf{
+
+.mera-rf {
     position: relative;
 }
-.mera-lt, .mera-lb{
-    margin-left: 18.75vw; 
+
+.mera-lt,
+.mera-lb {
+    margin-left: 18.75vw;
     margin-right: 3.65vw;
 }
-.mera-lt>p{
+
+.mera-lt>p {
     color: #BEBEBE;
     font-family: 'PT Sans';
     font-weight: 400;
@@ -101,42 +115,48 @@ body{
     line-height: 2.75vh;
     max-width: 24vw;
 }
-.mera-lb>img{
+
+.mera-lb>img {
     height: 1.4vh;
     width: 0.7vw;
 }
-.mera-lb{
+
+.mera-lb {
     margin-top: 2.4vh;
     margin-bottom: 3.52vh;
 }
-.merat{
+
+.merat {
     margin-top: 6.2vh;
-    font-family: "Gilroy"!important;
+    font-family: "Gilroy" !important;
     font-weight: 400 !important;
     font-size: 2.96vh !important;
     line-height: 3.33vh !important;
     color: white !important;
 }
-.mera-lb >span{
+
+.mera-lb>span {
     font-family: 'PT Sans';
     font-size: 1.48vh;
     line-height: 2.22vh;
     color: #BEBEBE;
     margin-left: 0.78vw;
-    
+
 }
-.mera-rf1{
+
+.mera-rf1 {
     font-family: 'PT Sans';
     font-weight: 700;
     font-size: 1.7vh;
     line-height: 3.2vh;
-    color:white;
+    color: white;
     letter-spacing: 2px;
     position: absolute;
     top: 7vh;
     left: 4.1vw;
 }
-.mera-rs{
+
+.mera-rs {
     font-family: 'PT Sans';
     font-size: 2.22vh;
     line-height: 2.22vh;
@@ -148,14 +168,16 @@ body{
     left: 4.1vw;
 
 }
+
 /************tromb**********/
-.tromb0{
+.tromb0 {
     margin-top: 7.4vh;
     margin-bottom: 9.26vh;
     display: flex;
     flex-direction: column;
 }
-.tromb{
+
+.tromb {
     font-family: "Gilroy";
     font-size: 2.96vh;
     font-weight: 400;
@@ -163,34 +185,40 @@ body{
     color: #151716;
     letter-spacing: -0.5px;
 }
-.tromb1{
+
+.tromb1 {
     display: flex;
     margin-top: 2.59vh;
     align-items: end;
     justify-content: space-between;
 }
-.tromb2{
+
+.tromb2 {
     position: relative;
 }
-.tromb22{
+
+.tromb22 {
     display: block;
     max-height: 32.4vh;
     max-width: 14.9vw;
 }
-.tromb21{
+
+.tromb21 {
     position: absolute;
     bottom: 2vh;
     left: 1.25vw;
 }
-.tromb213{
+
+.tromb213 {
     color: white;
     font-weight: 700;
     font-family: 'Gilroy';
     font-size: 1.85vh;
     line-height: 2.3vh;
 }
+
 /**********actions***********/
-.actions220{
+.actions220 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -205,7 +233,8 @@ body{
     top: 1.11vh;
     right: 0.62vw;
 }
-.actions222{
+
+.actions222 {
     position: absolute;
     left: 0.9vw;
     bottom: 0.9vh;
@@ -215,17 +244,19 @@ body{
     line-height: 1.85vh;
     color: #151716;
 }
-.actions223{
+
+.actions223 {
     position: absolute;
     left: 5vw;
     bottom: 0.8vh;
     font-family: 'PT Sans';
-    font-size: 1.48vh; 
+    font-size: 1.48vh;
     font-weight: 400;
     line-height: 1.48vh;
     color: #A5A5A5;
 }
-.actions2202{
+
+.actions2202 {
     display: flex;
     padding: 0.74vh 0.57vw;
     align-items: center;
@@ -235,36 +266,43 @@ body{
     font-weight: 700;
     line-height: 1.85vh;
 }
-.actions0{
+
+.actions0 {
     margin-bottom: 1.85vh;
 }
-.actions{
+
+.actions {
     display: flex;
     flex-direction: column;
     margin-top: 7.4vh;
-    margin-bottom: 7.4vh ;
+    margin-bottom: 7.4vh;
 }
-.actions1{
+
+.actions1 {
     display: flex;
     justify-content: center;
 }
-.actions2{
+
+.actions2 {
     position: relative;
     padding: 2.22vh 1.04vw;
     padding-bottom: 4vh;
     border: 1px solid #ECECEC;
 }
-.actions2:not(:first-child){
+
+.actions2:not(:first-child) {
     border-left: none;
 }
-.actions22{
+
+.actions22 {
     display: block;
     height: 17.4vh;
     width: 9.38vw;
     margin-bottom: 1.85vh;
     margin-right: 5.2vw;
 }
-.actions213{
+
+.actions213 {
     width: 13.54vw;
     font-family: 'PT Sans';
     font-size: 1.48vh;
@@ -272,17 +310,20 @@ body{
     line-height: 2vh;
 
 }
+
 /*************parol**********/
-.parol{
+.parol {
     display: flex;
     flex-direction: column;
 
 }
-.parol0{
+
+.parol0 {
     margin: 0 auto;
     margin-top: 6.48vh;
 }
-.parol1{
+
+.parol1 {
     margin-left: 6.25vw;
     margin-top: 5vh;
     margin-bottom: 7.4vh;
@@ -291,22 +332,27 @@ body{
     justify-content: space-between;
     max-width: 49.94vw;
 }
-.parol11{
+
+.parol11 {
     display: flex;
     justify-content: center;
 }
-.parol12{
+
+.parol12 {
     width: 10.4vw;
 }
-.parol120{
+
+.parol120 {
     width: 14.7vw;
 }
-.parol121{
+
+.parol121 {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.parol122{
+
+.parol122 {
     display: flex;
     font-family: 'Gilroy';
     font-size: 1.85vh;
@@ -316,7 +362,8 @@ body{
     color: #151716;
     margin-top: 2.22vh;
 }
-.parol1220{
+
+.parol1220 {
     margin-top: 1vh;
     text-align: center;
     font-family: 'PT Sans';
@@ -325,99 +372,189 @@ body{
     color: #7b7b7b;
 
 }
+
 /**********the***************/
-.the0{
+.the0 {
     position: relative;
 }
-.the0>img{
+
+.the0>img {
     display: block;
 }
-.the{
-   width: 100vw;
+
+.the {
+    width: 100vw;
 }
 
-.the1{
+.the1 {
     position: absolute;
     text-align: center;
     bottom: 0vh;
     left: 18.75vw;
-    right:18.75vw ;
+    right: 18.75vw;
     background: #F6761A;
     color: white;
     font-family: 'Gilroy';
     font-size: 2.6vh;
     line-height: 3.33vh;
-    padding-bottom:4.35vh ;
-    padding-top: 3.9vh;;
+    padding-bottom: 4.35vh;
+    padding-top: 3.9vh;
+    ;
 }
 
 /***********disk***************/
-.disk{
-    margin-top: 4.35vh;
-    display: flex;
-    justify-content: space-between;
+@media (min-width: 1250px) {
 
-}
-.disk-l{
+    .disk {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    
+    .diskt{
     padding-top: 4.25vw;
-     display: flex;
+    }
+    .disk-l{
+        padding-top: 4.25vw;
+    }
+    .diskpr1 {
+        top: 28.43vh;
+        left: 6.3vw;
+    
+    }
+    .diskint {
+        flex-direction: row;
+    }
+    .diskint>div {
+        margin-top: 7.59vh;
+        margin-bottom: 7.59vh;
+    }
+    .intr12 {
+        max-width: 13.07vw;
+    }
+    .intr {
+        max-width: 20.5vw;
+    }
+    .intl {
+        max-width: 25vw;
+    }
+}
+
+@media (max-width: 1250px) {
+
+    .disk {
+        margin-top: 4.35vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .disk-l, .disk-r{
+        align-items: center;
+    }
+    .diskm{
+        margin: 0 auto;
+    }
+    .diskmf{
+        margin-top: 1vh;
+    }
+    .disk-l{
+        text-align: center;
+    }
+    .desk{
+        margin: 0 auto;
+    }
+    .diskpr1 {
+        top: 40%;
+        left: 30%;
+    
+    }
+    .diskint {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media(max-width: 600px){
+    .desk{
+        width: 90%;
+    }
+}
+.disk-l {
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.diskt{
+
+.disk-r {
+    position: relative;
+}
+
+
+.diskt {
     font-size: 5.55vh;
     line-height: 5.93vh;
     color: white;
     font-family: 'Gilroy';
 }
-.diskmc > span{
+
+.diskmc>span {
     font-size: 1.85vh;
     line-height: 1.85vh;
     margin-left: 0.78vw;
     font-family: 'PT Sans';
 }
 
-.disk-r{
-    position: relative;
-}
-.disk-r > img{
+
+.disk-r>img {
     display: block;
 }
-.diskmi{
+
+.diskmi {
     margin-left: 0.78vw;
 }
-.diskc, .diskp{
+
+.diskc,
+.diskp {
     margin-bottom: 2.22vh;
 }
-.diskp, .diskg{
+
+.diskp,
+.diskg {
     margin-top: 2.22vh;
 }
-.diskml{
+
+.diskml {
     height: 1px;
     background: linear-gradient(to right, #4b4b4b, #262625);
 }
-.diskml0{
+
+.diskml0 {
     width: 12.4vw;
     height: 1px;
-    background: linear-gradient(to right, #4b4b4b, 75%, #262625 );
+    background: linear-gradient(to right, #4b4b4b, 75%, #262625);
     margin-bottom: 1.85vh;
 }
-.diskm{
+
+.diskm {
     max-width: 19.53vw;
     margin-top: 5.37vh;
 }
-.diskmf{
+
+.diskmf {
     display: flex;
     margin-bottom: 2.96vh;
 }
-.diskmfi{
+
+.diskmfi {
     width: 31px;
     height: 2px;
 }
-.diskmfi:not(:first-child){
+
+.diskmfi:not(:first-child) {
     margin-left: 0.93vw;
 }
-.diskpr{
+
+.diskpr {
     font-family: 'PT Sans';
     font-size: 2.22vh;
     line-height: 2.22vh;
@@ -426,7 +563,8 @@ body{
     border-radius: 2px;
     color: white;
 }
-.diskpr0{
+
+.diskpr0 {
     margin-left: 0.3vw;
     margin-top: -2.8vh;
     display: block;
@@ -435,49 +573,86 @@ body{
     border: 1px solid #FF7028;
     border-radius: 2px;
 }
-.diskpr1{
+
+.diskpr1 {
     position: absolute;
     top: 28.43vh;
     left: 6.3vw;
 
 }
-.diskpt{
+
+.diskpt {
     position: absolute;
     left: 73vw;
 }
-.tops{
-    background: linear-gradient(to left,  #575757  35.5% 64.5%, #F5702C 64.5% 35.5%);
+
+.tops {
+    background: linear-gradient(to left, #575757 35.5% 64.5%, #F5702C 64.5% 35.5%);
 }
+
 /***************header*************/
-.norm1-r, .norm1-l{
-    display: flex;
-    align-items: center;
+@media (min-width: 750px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 3.52vh;
+        padding-bottom: 3.52vw;
+    }
+
+    .norm1-r,
+    .norm1-l {
+        display: flex;
+        align-items: center;
+    }
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 3.52vh;
-    padding-bottom: 3.52vw;
+
+@media (max-width: 750px) {
+
+    .norm1-r,
+    .norm1-l {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .norm1-r>*,
+    .norm1-l>* {
+        margin-bottom: 1vh;
+        margin-top: 1vh;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 3.52vh;
+        padding-bottom: 3.52vw;
+    }
 }
-.norm1-rl{
+
+.norm1-rl {
     margin-left: 1.35vw;
     font-family: 'PT sans';
     font-size: 1.6vh;
     line-height: 1.85vh;
 }
-.somt{
+
+.somt {
     margin-right: 0.47vw;
     font-family: 'PT sans';
     font-size: 1.48vh;
     line-height: 1.92vh;
 }
-.somt1{
+
+.somt1 {
     margin-left: 1.7vw;
     padding: 0.5vw;
 }
+
 /************end*****************/
-.The{
+.The {
     font-family: 'Roboto';
     font-size: 1.11vh;
     font-weight: 400;
@@ -485,36 +660,44 @@ header{
     text-align: center;
     color: #747474;
 }
-.end{
+
+.end {
     position: relative;
     display: flex;
     background: #202122;
     padding-top: 5.6vh;
     padding-bottom: 10.2vh;
 }
-.theend{
+
+.theend {
     display: flex;
     position: absolute;
     bottom: 2.22vh;
     right: 18.6vw;
 }
-.end1{
+
+.end1 {
     margin-left: 4.48vw;
 }
-.endi{
+
+.endi {
     height: 3.24vh;
     margin-left: 18.75vw;
 }
-.end2{
+
+.end2 {
     margin-left: 2.86vw;
 }
-.end3{
+
+.end3 {
     margin-left: 3.75vw;
 }
-.end4{
+
+.end4 {
     margin-left: 4.2vw;
 }
-.endt{
+
+.endt {
     font-family: 'Gilroy';
     font-size: 1.48vh;
     font-weight: 700;
@@ -523,39 +706,45 @@ header{
     color: white;
     margin-left: 0.78vw
 }
-.p4{
+
+.p4 {
     color: #BEBEBE;
-    font-family: 'PT Sans'!important;
+    font-family: 'PT Sans' !important;
     font-size: 1.48vh !important;
     font-weight: 400 !important;
     line-height: 2.22vh !important;
     margin-left: 0.625vw !important;
 }
-.p41{
+
+.p41 {
     color: #BEBEBE;
-    font-family: 'PT Sans'!important;
+    font-family: 'PT Sans' !important;
     font-size: 1.48vh !important;
     font-weight: 400 !important;
     line-height: 2.22vh !important;
     margin-left: 0.5vw !important;
 }
-.p42{
+
+.p42 {
     color: #BEBEBE;
-    font-family: 'PT Sans'!important;
+    font-family: 'PT Sans' !important;
     font-size: 1.48vh !important;
     font-weight: 400 !important;
     line-height: 2.22vh !important;
     margin-left: 0.2vw !important;
 }
-.endy{
+
+.endy {
     height: 1.85vh !important;
     width: 1.04vw !important;
 }
-.end01{
+
+.end01 {
     display: flex;
     align-items: center;
 }
-.PS> img{
+
+.PS>img {
     width: 3.9vw;
     height: 5.3vh;
     margin: 0 auto;
@@ -563,25 +752,30 @@ header{
     padding-bottom: 4vh;
     color: #303030;
 }
-.PS{
+
+.PS {
     display: flex;
     justify-content: center;
     background: #202122;
 }
-.wrd{
+
+.wrd {
     width: 100vw;
     height: 0.5px;
     background: #2C2D2E;
 }
-.lt{
+
+.lt {
     margin-left: 1.25vw;
     border: 0.1px solid #494949;
     border-radius: 0.6px;
     padding: 0.7vh 0.625vw;
 }
-.tik{
+
+.tik {
     margin-top: 0.7vh;
 }
+
 /*******************fonts*********************/
 @font-face {
     font-family: 'Gilroy';
@@ -595,38 +789,48 @@ header{
 
 /*******************color*****************/
 
-.p1{
+.p1 {
     color: #999999;
 }
-.p2{
+
+.p2 {
     color: #939393;
 }
-.p3{
+
+.p3 {
     color: #BEBEBE;
 }
-.plt{
+
+.plt {
     color: #7b7b7b;
 }
-.pol{
+
+.pol {
     background-color: #f6f6f6;
     position: relative;
 }
-.gr{
+
+.gr {
     background-color: #575757;
 }
-.grb{
+
+.grb {
     border: 1px solid #494949;
 
 }
-.or{
+
+.or {
     color: #fe5b00;
 }
-.orb{
+
+.orb {
     background-color: #ff702b;
 }
-.drb{
+
+.drb {
     color: #151716;
 }
-.dbk{
+
+.dbk {
     background-color: #060707d9;
 }
