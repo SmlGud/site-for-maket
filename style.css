@@ -147,25 +147,18 @@ body {
 .mera-rf1 {
     font-family: 'PT Sans';
     font-weight: 700;
-    font-size: 1.7vh;
     line-height: 3.2vh;
     color: white;
     letter-spacing: 2px;
     position: absolute;
-    top: 7vh;
-    left: 4.1vw;
 }
 
 .mera-rs {
     font-family: 'PT Sans';
-    font-size: 2.22vh;
-    line-height: 2.22vh;
     padding: 1.38vh;
     background-color: #FF7028;
     color: white;
     position: absolute;
-    top: 10.55vh;
-    left: 4.1vw;
 
 }
 
@@ -179,6 +172,7 @@ body {
 
 .tromb {
     font-family: "Gilroy";
+    text-align: center;
     font-size: 2.96vh;
     font-weight: 400;
     line-height: 3.33vh;
@@ -236,8 +230,6 @@ body {
 
 .actions222 {
     position: absolute;
-    left: 0.9vw;
-    bottom: 0.9vh;
     font-family: 'PT Sans';
     font-size: 1.85vh;
     font-weight: 700;
@@ -247,8 +239,6 @@ body {
 
 .actions223 {
     position: absolute;
-    left: 5vw;
-    bottom: 0.8vh;
     font-family: 'PT Sans';
     font-size: 1.48vh;
     font-weight: 400;
@@ -290,20 +280,14 @@ body {
     border: 1px solid #ECECEC;
 }
 
-.actions2:not(:first-child) {
-    border-left: none;
-}
 
 .actions22 {
     display: block;
-    height: 17.4vh;
-    width: 9.38vw;
     margin-bottom: 1.85vh;
     margin-right: 5.2vw;
 }
 
 .actions213 {
-    width: 13.54vw;
     font-family: 'PT Sans';
     font-size: 1.48vh;
     font-weight: 400;
@@ -328,7 +312,6 @@ body {
     margin-top: 5vh;
     margin-bottom: 7.4vh;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     max-width: 49.94vw;
 }
@@ -387,11 +370,7 @@ body {
 }
 
 .the1 {
-    position: absolute;
     text-align: center;
-    bottom: 0vh;
-    left: 18.75vw;
-    right: 18.75vw;
     background: #F6761A;
     color: white;
     font-family: 'Gilroy';
@@ -404,6 +383,13 @@ body {
 
 /***********disk***************/
 @media (min-width: 1250px) {
+    .actions22 {
+        height: 17.4vh;
+        width: 9.38vw;
+    }
+    .actions213 {
+        width: 13.54vw;
+    }
 
     .disk {
         display: flex;
@@ -438,10 +424,40 @@ body {
     .intl {
         max-width: 25vw;
     }
+    .actions2:not(:first-child) {
+        border-left: none;
+   
+    }
+    .actions222 {
+        left: 0.9vw;
+        bottom: 0.9vh;
+    }
+    .actions223 {
+        left: 6vw;
+        bottom: 0.8vh;
+    }
+    .the1 {
+        position: absolute;
+    }
 }
 
 @media (max-width: 1250px) {
-
+    .mera {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mera-lt, .mera-lb{
+        margin-left: 0;
+    }
+    .mera-lt>p{
+        max-width: 44vw;
+    }
+    .mera-l{
+        align-items: center;
+    }
+    .merat{
+        text-align: center;
+    }
     .disk {
         margin-top: 4.35vh;
         display: flex;
@@ -465,19 +481,142 @@ body {
         margin: 0 auto;
     }
     .diskpr1 {
-        top: 40%;
-        left: 30%;
+        top: 40%!important;
+        left: 30%!important;
     
     }
     .diskint {
         align-items: center;
         flex-direction: column;
     }
+    .diskint>div {
+        margin-top: 2vh;
+    }
+    .actions1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .actions0{
+        text-align: center;
+    }
+    .actions213{
+        width: 40vw;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .actions22 {
+        margin: 0 auto;
+        height: 400px;
+        width: 360px;
+    } 
+    .actions222 {
+        left: 20vw;
+        bottom: 2vh;
+    }
+    .actions223 {
+        left: 20.5vw;
+        bottom: 0.5vh;
+    }
+    .actions220 {
+        width: 3.125vw;
+        height: 3.33vh;
+    }
+    .actions2202 {
+        font-size: 1.48vh;
+        line-height: 1.85vh;
+    }
+    .parol1 {
+        flex-direction: row;
+        margin: 0 auto;
+        padding: 3.4vh;
+    }
+    .parol12{
+        width: 50vw;
+    }
+    .parol120{
+        width: 50vw;
+    }
+    .the1 {
+        position: relative;
+        left: 0;
+    }
+}
+@media (max-width: 1000px) {
+     .actions22 {
+        height: 300px;
+        width: 250px;
+    }
+    .actions220 {
+        height: 2vh;
+    }
+    .actions2202 {
+        line-height: 1.15vh;
+    }
+    .parol1{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 600px) {
+    .mera-rs{
+        line-height: 2.22vh;
+        font-size: 2.22vh;
+        top: 10.55vh;
+        left: 4.1vw;
+    }
+    .mera-rf1{
+        font-size: 1.7vh;
+        top: 7vh;
+        left: 4.1vw;
+    }  
 }
 @media(max-width: 600px){
     .desk{
         width: 90%;
     }
+    .mera-rs{
+        line-height: 0vh;
+        font-size: 1.1vh;
+        top: 30%;
+        left: 10%;
+    }
+    .mera-rf1{
+        font-size: 1.1vh;
+        top: 10%;
+        left: 10%;
+    }
+    .actions22 {
+        height: 200px;
+        width: 150px;
+    }
+    .actions220 {
+        width: 5vw;
+        height: 2vh;
+    }
+    .actions2202 {
+        font-size: 1vh;
+        line-height: 1vh;}
+}
+@media (min-width: 450px) {
+    
+    .diskpr {
+        font-size: 2.22vh;
+        line-height: 2.22vh;
+}
+.diskt {
+    font-size: 5.55vh;
+}
+}
+@media (max-width: 450px) {
+    .diskpr {
+        font-size: 1.5vh ;
+        line-height: 0vh ;
+}
+.diskt {
+    font-size: 3.55vh ;
+}
 }
 .disk-l {
     display: flex;
@@ -556,8 +695,6 @@ body {
 
 .diskpr {
     font-family: 'PT Sans';
-    font-size: 2.22vh;
-    line-height: 2.22vh;
     padding: 1.38vh;
     background-color: #FF7028;
     border-radius: 2px;
@@ -676,22 +813,17 @@ body {
     right: 18.6vw;
 }
 
-.end1 {
-    margin-left: 4.48vw;
-}
+
 
 .endi {
     height: 3.24vh;
-    margin-left: 18.75vw;
 }
 
 .end2 {
     margin-left: 2.86vw;
 }
 
-.end3 {
-    margin-left: 3.75vw;
-}
+
 
 .end4 {
     margin-left: 4.2vw;
@@ -833,4 +965,39 @@ body {
 
 .dbk {
     background-color: #060707d9;
+}
+.was{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.qw12{
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 1150px) {
+    .end3 {
+        margin-left: 3.75vw;
+    }
+    .end1 {
+        margin-left: 4.48vw;
+    }
+    .endi {
+        margin-left: 18.75vw;
+    }
+}
+@media (max-width: 1150px) {
+    .end3 {
+        margin-left: 0;
+    }
+    .end{
+        flex-direction: column;
+        row-gap: 35px;
+    }
+    .end1 {
+        margin-left: 2.5vw;
+    }
+    .endi {
+        margin-left: 0;
+    }
 }
